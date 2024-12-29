@@ -1,6 +1,6 @@
 
 
-class InputNumberNode:
+class FramerComfyInputNumberNode:
     @classmethod
     def INPUT_TYPES(cls):
         return {

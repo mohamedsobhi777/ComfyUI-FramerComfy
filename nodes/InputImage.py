@@ -1,4 +1,4 @@
-class InputImageNode:
+class FramerComfyInputImageNode:
 
     @classmethod  
     def INPUT_TYPES(cls):  

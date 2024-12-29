@@ -1,4 +1,4 @@
-class InputStringNode:
+class FramerComfyInputStringNode:
     
     @classmethod 
     def INPUT_TYPES(cls):

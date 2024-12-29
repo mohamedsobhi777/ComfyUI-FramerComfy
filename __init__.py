@@ -1,17 +1,17 @@
 
 
-from .nodes.InputString import InputStringNode
-from .nodes.InputNumber import InputNumberNode
-from .nodes.InputImage import InputImageNode
+from .nodes.InputString import FramerComfyInputStringNode
+from .nodes.InputNumber import FramerComfyInputNumberNode
+from .nodes.InputImage import FramerComfyInputImageNode
 
 NODE_CLASS_MAPPINGS = {
-    "InputStringNode": InputStringNode,
-    "InputNumberNode": InputNumberNode,
-    "InputImageNode": InputImageNode    
+    "FramerComfyInputStringNode": FramerComfyInputStringNode,
+    "FramerComfyInputNumberNode": FramerComfyInputNumberNode,
+    "FramerComfyInputImageNode": FramerComfyInputImageNode    
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "InputStringNode": "FramerComfy Input String", 
-    "InputNumberNode": "FramerComfy Input Number", 
-    "InputImageNode": "FramerComfy Input Image"
+    "FramerComfyInputStringNode": "FramerComfy Input String", 
+    "FramerComfyInputNumberNode": "FramerComfy Input Number", 
+    "FramerComfyInputImageNode": "FramerComfy Input Image"
 }
