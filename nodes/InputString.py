@@ -18,5 +18,5 @@ class FramerComfyInputStringNode:
     FUNCTION = "get_value"
     CATEGORY = "FramerComfy"
     
-    def get_value(self, default_value):  
+    def get_value(self, name, default_value):  
         return (default_value,)
