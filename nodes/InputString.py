@@ -7,7 +7,7 @@ class FramerComfyInputStringNode:
                 "name": ("STRING", {"default": "string_input"}),
             },
            "optional": {
-               "default_value": ("STRING", {
+               "value": ("STRING", {
                    "default": "",
                    "multiline": False, 
                })
@@ -18,5 +18,5 @@ class FramerComfyInputStringNode:
     FUNCTION = "get_value"
     CATEGORY = "FramerComfy"
     
-    def get_value(self, name, default_value):  
-        return (default_value,)
+    def get_value(self, name, value):  
+        return (value,)
