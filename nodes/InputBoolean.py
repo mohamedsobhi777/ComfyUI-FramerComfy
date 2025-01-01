@@ -1,4 +1,4 @@
-class BooleanInput:
+class FramerComfyBooleanInputNode:
     @classmethod
     def INPUT_TYPES(cls):
         return {

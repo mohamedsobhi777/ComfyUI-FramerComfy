@@ -3,16 +3,16 @@
 from .nodes.InputString import FramerComfyInputStringNode
 from .nodes.InputNumber import FramerComfyInputNumberNode
 from .nodes.InputImage import FramerComfyInputImageNode
-from .nodes.InputFloat import FloatInput
-from .nodes.InputBoolean import BooleanInput
+from .nodes.InputFloat import FramerComfyFloatInputNode
+from .nodes.InputBoolean import FramerComfyBooleanInputNode
 from .nodes.OutputImage import FramerComfySaveImageNode
 
 NODE_CLASS_MAPPINGS = {
     "FramerComfyInputStringNode": FramerComfyInputStringNode,
     "FramerComfyInputNumberNode": FramerComfyInputNumberNode,
     "FramerComfyInputImageNode": FramerComfyInputImageNode,
-    "FramerComfyFloatInputNode": FloatInput,
-    "FramerComfyBooleanInputNode": BooleanInput,
+    "FramerComfyFloatInputNode": FramerComfyFloatInputNode,
+    "FramerComfyBooleanInputNode": FramerComfyBooleanInputNode,
     "FramerComfySaveImageNode": FramerComfySaveImageNode
 }
 

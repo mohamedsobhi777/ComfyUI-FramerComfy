@@ -1,6 +1,6 @@
 
 
-class FloatInput:
+class FramerComfyFloatInputNode:
     @classmethod
     def INPUT_TYPES(cls):
         return {
